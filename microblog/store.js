@@ -7,7 +7,13 @@ class Store {
       posts: [{
         id: 1,
         title: 'Title',
-        content: 'This is content'
+        content: 'This is content',
+        likes: 10,
+        hastags: [
+          'vue',
+          'javascript',
+          'composition api',
+        ]
       }]
     })
   }
