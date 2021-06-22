@@ -8,6 +8,7 @@
       {{ post.content }}
     </template>
     <template v-slot:description>
+      <!-- "":post" came from Controls component and asign it value to post from v-for-->
       <controls :post="post" />
     </template>
   </card>

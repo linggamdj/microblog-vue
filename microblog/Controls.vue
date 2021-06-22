@@ -8,7 +8,7 @@ export default {
       required: true,
     },
   },
-  setup(props) {},
+  setup() {},
 };
 </script>
 
